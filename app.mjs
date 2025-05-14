@@ -77,6 +77,4 @@ app.get("/posts/:id", (req, res) => {
   res.json(post);
 });
 
-app.listen(port, () => {
-  console.log(`Server is running at ${port}`);
-});
+export default app;
